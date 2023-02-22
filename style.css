@@ -1,0 +1,118 @@
+.mycontent {
+    margin: 70px;
+}
+
+.header {
+    color: rgb(5, 177, 174);
+    font-size: 90px;
+}
+
+.sub-header {
+    font-size: 65px;
+    margin-top: 50px;
+    color: rgb(132, 231, 50);
+}
+
+.paragraph {
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+.box1 {
+    background-size: contain;
+    background-color: rgb(5, 177, 174);
+}
+
+.box2 {
+    background-size: contain;
+    background-color: rgb(54, 194, 194);
+}
+
+.point {
+    font-size: 30px;
+    color: white;
+}
+
+.box-header {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.button {
+    margin-top: 50px;
+    border: none;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(132, 231, 50);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price {
+    color: white;
+    font-size: 70px;
+}
+
+.sub-header-price {
+    margin-top: 25px;
+    color: rgb(82, 214, 214);
+    font-size: 30px;
+}
+
+.paragraph2 {
+    font-size: 35px;
+    color: white;
+}
+
+@media(max-width: 991px) {
+    .mycontent {
+        margin: 20px;
+    }
+    .header {
+        font-size: 35px;
+    }
+    .sub-header {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .paragraph {
+        margin-top: 20px;
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .box-header {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .price {
+        font-size: 50px;
+    }
+    .sub-header-price {
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    .paragraph2 {
+        font-size: 23px;
+    }
+    .button {
+        margin-top: 20px;
+        border: none;
+        height: 60px;
+        font-size: 15px;
+    }
+    .box1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .box2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .point {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+}
